@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="cadastro.css" />
+    <script type="module" src="/src/main.tsx"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capys</title>
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Logo da Empresa" class="logo" />
+      <button class="btn-back" onclick="history.back()">Voltar</button>
+    </header>
+
+    <div class="wrapper">
+      <div class="toast sucess">
+        <div class="container-1">
+          <i class="fas fa-circle-check"></i>
+          
+        </div>
+        <div class="container-2">
+          <p>Conta Criada com sucesso!</p>
+        </div>        
+        <button>&times;</button>        
+      </div>
+      
+      <div class="toast error">
+        <div class="container-1">
+          <i class="fa-solid fa-circle-exclamation"></i>          
+        </div>
+        <div class="container-2">
+          <p>Ops! algo deu errado</p>
+        </div>        
+        <button>&times;</button>       
+      </div>
+    </div>
+  </div>
+
+    <div class="registration-page">
+      <h2>Crie sua conta</h2>
+      <p>Rápido e grátis, vamos nessa</p>
+
+      <form class="input-group">
+        <div class="input-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" placeholder="Digite seu nome" />
+        </div>
+
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Digite seu email" />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <input type="password" id="password" placeholder="Digite sua senha" />
+        </div>
+
+        <div class="input-group">
+          <label for="confirm-password">Confirmar Senha</label>
+          <input
+            type="password"
+            id="confirm-password"
+            placeholder="Digite novamente sua senha"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="bio">Bio</label>
+          <input type="text" id="bio" placeholder="Fale sobre você" />
+        </div>
+
+        <div class="input-group">
+          <label for="contact">Contato</label>
+          <input type="text" id="contact" placeholder="Opção de contato" />
+        </div>
+
+        <div class="input-group">
+          <label for="role">Selecionar Cargo</label>
+          <input type="text" id="role" placeholder="Desenvolvedor Front-End" />
+        </div>
+
+        <a href="home.html" class="teste123">
+          <button type="button" class="teste123">Cadastrar</button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>

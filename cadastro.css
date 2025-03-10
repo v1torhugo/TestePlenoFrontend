@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 75vh;
+  background-color: #0a1a2a;
+}
+.wrapper {
+  background-color: #343b41;
+  color: white;
+  width: 370px;
+  position: fixed;
+  top: 20%;
+  right: 50px;
+  border-radius: 20px;
+}
+.toast {
+  width: 100%;
+  height: 80px;
+  padding: 15px;
+  border-radius: 7px;
+  display: grid;
+  grid-template-columns: 1.3fr 6fr 0.5fr;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+}
+
+.container-1,
+.container-2 {
+  align-self: center;
+}
+
+.sucess {
+  border-bottom: 8px solid #3fe864;
+}
+
+.sucess i {
+  color: #3fe864;
+}
+
+.error {
+  border-bottom: 8px solid #d32f2f;
+}
+
+.error i {
+  color: #d32f2f;
+}
+
+.container-1 i {
+  font-size: 38px;
+}
+
+.toast button {
+  align-self: flex-start;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  line-height: 0;
+  color: #868e96;
+  cursor: pointer;
+}
+
+.container-2 p:last-child {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+.toast:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  width: 100%;
+  gap: 150px;
+  margin-top: -40px;
+  margin-bottom: -40px;
+}
+
+.logo {
+  width: 148px;
+  height: 148px;
+  top: -6px;
+  left: 527px;
+}
+
+.btn-back {
+  color: white;
+  background-color: #021a30;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.btn-back:hover {
+  background-color: #1e2a45;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-group label {
+  color: white;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #343b41;
+  color: white;
+  outline: none;
+}
+
+.registration-page {
+  width: 370px;
+  height: 971px;
+  top: 48px;
+  left: 535px;
+  background: #021a30;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.registration-page h2 {
+  color: white;
+}
+
+.registration-page p {
+  color: #868e96;
+  font-size: 12px;
+}
+
+.teste123 {
+  background-color: #b22222;
+  color: white;
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
